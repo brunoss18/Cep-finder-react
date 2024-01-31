@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #ffa500;
+  --secondary-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.conteiner {
+  border: 3px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.conteinerInput {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+}
+
+input {
+
+  margin-right: 1rem;
+  padding: .5rem;
+  border: 3px solid var(--primary-color);
+  border-radius: 1rem;
+}
+
+input:focus {
+  border-color: var(--primary-color);
+}
+
+.buttonSearch {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-color);
+  padding: 1rem;
+  margin-top: 1rem;
+  color: var(--secondary-color);
+  border-radius: 1rem;
+}
+
+.aboutMe {
+  font-size: .7rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMe>a {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-left: .2rem;
+}
